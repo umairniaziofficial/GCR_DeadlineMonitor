@@ -1,6 +1,8 @@
 # GCR RealTime Deadline Tracker
 # Steps to Download or Clone the GitHub Repository
 
+![GCR_Extension](https://github.com/user-attachments/assets/0ef06363-32a9-4ea0-ac0c-07cdfcee3ef2)
+
 ## To Clone the Repository
 
 1. **Install Git** (if you haven't already):
