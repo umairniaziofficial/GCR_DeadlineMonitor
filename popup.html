@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Classroom Timer</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 15px;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    input {
+      padding: 8px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      width: 100%;
+    }
+    .timer {
+      background: #f0f0f0;
+      padding: 10px;
+      border-radius: 4px;
+      margin-top: 10px;
+    }
+    .error {
+      color: #dc3545;
+      font-size: 0.9em;
+      margin-top: 5px;
+      display: none;
+    }
+    .countdown {
+      font-weight: bold;
+      color: #0063b5;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h3>Classroom Timer</h3>
+    <input type="text" id="dueDate" placeholder="Enter due date (e.g., 'Due Today, 11:59 PM')">
+    <div id="error" class="error"></div>
+    <div id="timer" class="timer">
+      Time remaining: <span id="countdown" class="countdown">--:--:--</span>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

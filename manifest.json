@@ -1,0 +1,14 @@
+{
+    "manifest_version": 3,
+    "name": "Classroom Timer",
+    "version": "1.0",
+    "description": "Converts Google Classroom due dates to real-time countdown timers",
+    "permissions": ["activeTab", "storage"],
+    "action": {
+      "default_popup": "popup.html"
+    },
+    "icons": {
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  }
