@@ -1,46 +1,35 @@
 # GCR RealTime Deadline Tracker
+# Steps to Download or Clone the GitHub Repository
 
-The **GCR RealTime Deadline Tracker** is a Google Chrome extension that allows users to manually input timestamps for precise deadline tracking. This tool helps in monitoring deadlines and ensuring timely task management.
+## To Clone the Repository
 
-## Features
+1. **Install Git** (if you haven't already):
+   - Download Git from [git-scm.com](https://git-scm.com/) and install it on your computer.
 
-- **Manual Time Input**: Easily input specific timestamps to view exact deadlines and due dates.
-- **Real-Time Deadline Monitoring**: Get real-time feedback on approaching deadlines.
+2. **Open a Terminal or Command Prompt**:
+   - On Windows, you can use Command Prompt or PowerShell.
+   - On macOS or Linux, use the Terminal.
 
-## Installation
+3. **Clone the Repository**:
+   - Run the following command in your terminal or command prompt:
+     ```bash
+     git clone https://github.com/umairniaziofficial/GCR_DeadlineMonitor.git
+     ```
+   - This will create a local copy of the repository in a folder named `GCR_DeadlineMonitor`.
 
-To install the extension, follow these steps:
+## To Download the Repository as a ZIP File
 
-1. **Clone or Download** the repository:
-   ```bash
-   git clone https://github.com/umairniaziofficial/GCR_DeadlineMonitor.git
-2. **Open Chrome Extensions**:
-   - Go to `chrome://extensions/` in your Chrome browser.
-   - Enable **Developer mode** by toggling the switch in the top right corner.
+1. **Visit the GitHub Repository**:
+   - Open your web browser and go to [GCR_DeadlineMonitor](https://github.com/umairniaziofficial/GCR_DeadlineMonitor).
 
-3. **Load the Extension**:
-   - Click on **Load unpacked**.
-   - Select the folder where you cloned or extracted the repository.
+2. **Download the ZIP**:
+   - Click the green "Code" button located near the top right of the page.
+   - Select "Download ZIP" from the dropdown menu.
 
-4. The **GCR RealTime Deadline Tracker** extension will now be added to Chrome and ready to use!
+3. **Extract the ZIP File**:
+   - Once the download is complete, locate the ZIP file in your downloads folder and extract it to your desired location.
 
-## Usage
-
-1. Click on the extension icon in the Chrome toolbar to open the interface.
-2. Use the **Manual Time Input** field to enter a specific timestamp.
-3. The extension will display the entered timestamp, allowing you to monitor deadlines in real time.
-
-## Example
-
-To view a custom deadline timestamp:
-
-1. Open the extension by clicking its icon.
-2. Enter the desired time in the **Manual Time Input** field.
-3. Press **Submit** to view the specific timestamp in real time.
-
-## Contributing
-
-We welcome contributions! Please follow these steps to contribute:
+Now you have your repository downloaded or cloned to your local machine! Let me know if you need any more help.
 
 🌐 **Social Links**
 

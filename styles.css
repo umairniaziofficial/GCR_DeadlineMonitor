@@ -1,0 +1,33 @@
+.countdown-timer {
+  display: inline-block;
+  margin-left: 8px;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 1.2em;
+  background-color: #e8f0fe;
+  color: #1967d2;
+}
+
+.countdown-timer.past-due {
+  background-color: #fce8e6;
+  color: #d93025;
+}
+
+.countdown-timer .countdown-text {
+  font-weight: bold;
+}
+
+.countdown-timer .original-date {
+  display: none;
+  font-size: 1em;
+  color: #5f6368;
+  margin-left: 8px;
+}
+
+.countdown-timer:hover .original-date {
+  display: inline;
+}
+
+.hide-original {
+  display: none !important;
+}
