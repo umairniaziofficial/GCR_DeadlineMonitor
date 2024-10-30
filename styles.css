@@ -31,3 +31,7 @@
 .hide-original {
   display: none !important;
 }
+
+.countdown-timer.red .countdown-text {
+  color: red;
+}
